@@ -11,6 +11,9 @@ args = parser.parse_args()
 
 
 def main() -> bool:
+    """
+    Main function for executing role policy verification.
+    """
 
     if not args.directory:
         parser.print_help()
